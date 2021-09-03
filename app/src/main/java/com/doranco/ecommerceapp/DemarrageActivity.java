@@ -16,7 +16,7 @@ public class DemarrageActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Intent intent = new Intent(getApplicationContext(),
-                        MainActivity.class);
+                        LoginActivity.class);
                 startActivity(intent);
                 finish(); }
         };
