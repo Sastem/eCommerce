@@ -11,4 +11,9 @@
     <string name="login_failed">"Login failed"</string>
     <string name="chargement_txt">Chargement</string>
     <string name="description_logo">Logo de l\'application eCommerce</string>
+    <string name="connexion_name">CONNEXION</string>
+    <string name="forgot_name">Mot de passe oublié?</string>
+    <string name="login_name">Login :</string>
+    <string name="password_name">Password :</string>
+    <string name="project_name">Ecommerce</string>
 </resources>

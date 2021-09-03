@@ -79,10 +79,9 @@
         android:id="@+id/button_creer_compte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="S'enregistrer"
         android:layout_below="@+id/input_adresse"
         android:layout_centerHorizontal="true"
-        />
+        android:text="S'enregistrer" />
 
 
 </RelativeLayout>
