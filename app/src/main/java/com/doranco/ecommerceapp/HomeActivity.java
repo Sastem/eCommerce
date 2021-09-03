@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
 
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
