@@ -11,10 +11,23 @@ import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
 
+    Button btnVinoiserie;
+    Button btnPatisserie;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        this.btnPatisserie = findViewById(R.id.btn_patisserie);
+        this.btnVinoiserie = findViewById(R.id.btn_vinoiserie);
+
+        btnPatisserie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GateauActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

@@ -16,4 +16,7 @@
     <string name="login_name">Login :</string>
     <string name="password_name">Password :</string>
     <string name="project_name">Ecommerce</string>
+    <string name="item_default_name">Nom de l\'article</string>
+    <string name="item_default_price">0€</string>
+    <string name="item_default_description">Description</string>
 </resources>
