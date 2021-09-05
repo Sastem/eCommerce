@@ -16,4 +16,10 @@
     <string name="login_name">Login :</string>
     <string name="password_name">Password :</string>
     <string name="project_name">Ecommerce</string>
+    <string name="project_final">Merci pour vos achats!</string>
+    <string name="panier_name">Votre panier</string>
+    <string name="prompt_code">Code carte bancaire</string>
+    <string name="emptycart_name">Vider le panier</string>
+    <string name="confirmcart_name">Confirmer le panier</string>
+    <string name="txt_bonapp">Bon Appétit!</string>
 </resources>
