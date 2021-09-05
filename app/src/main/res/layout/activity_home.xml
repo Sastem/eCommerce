@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:background="@color/creme">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,6 +17,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BirthDaylicious"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/rose"/>
 
     <TextView
         android:id="@+id/txt_bienvenue"
@@ -37,11 +50,11 @@
         app:layout_constraintTop_toBottomOf="@id/txt_bienvenue">
 
         <Button
-            android:id="@+id/btn_vinoiserie"
+            android:id="@+id/btn_viennoiserie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Vinoiserie" />
+            android:text="Viennoiserie" />
 
         <Button
             android:id="@+id/btn_patisserie"
