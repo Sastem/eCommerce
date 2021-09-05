@@ -6,8 +6,8 @@ public class Gateau {
 
     public Gateau(String nom, String mnemonic,String description, double prix) {
         this.nom = nom;
-        this.description = description;
         this.mnemonic = mnemonic;
+        this.description = description;
         this.prix = prix;
     }
 
