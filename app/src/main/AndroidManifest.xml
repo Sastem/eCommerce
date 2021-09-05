@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerceApp">
         <activity
+            android:name=".ViennoiserieActivity"
+            android:exported="true" />
+        <activity
             android:name=".GateauActivity"
             android:exported="true" />
         <activity

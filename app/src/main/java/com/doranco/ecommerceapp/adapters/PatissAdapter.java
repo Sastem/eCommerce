@@ -64,7 +64,7 @@ public class PatissAdapter extends BaseAdapter {
 
         // get item desciprion view
         TextView itemDescriptionView = view.findViewById(R.id.item_description);
-        itemNameView.setText(itemDescription);
+        itemDescriptionView.setText(itemDescription);
 
         // get item price view
         TextView itemPriceView = view.findViewById(R.id.item_price);
