@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/creme">
+
+    <ImageView
+        android:id="@+id/item_panier_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/item_multicolore_icon" />
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_panier_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_default_panier_name"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/item_panier_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_panier_name"
+            android:text="@string/item_default_panier_price" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

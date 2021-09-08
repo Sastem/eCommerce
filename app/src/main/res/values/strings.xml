@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">eCommerce  App</string>
+    <string name="app_name">BirthDaylicious</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -16,13 +16,15 @@
     <string name="login_name">Login :</string>
     <string name="password_name">Password :</string>
     <string name="project_name">Ecommerce</string>
-    <string name="project_final">Merci pour vos achats!</string>
-    <string name="panier_name">Votre panier</string>
+    <string name="item_default_name">Nom de l\'article</string>
+    <string name="item_default_price">0€</string>
+    <string name="item_default_description">Description</string>
+    <string name="item_default_panier_name">Nom</string>
+    <string name="item_default_panier_price">Prix</string>
+    <string name="panier_name">Mon Panier</string>
     <string name="prompt_code">Code carte bancaire</string>
     <string name="emptycart_name">Vider le panier</string>
-    <string name="confirmcart_name">Confirmer le panier</string>
-    <string name="txt_bonapp">Bon Appétit!</string>
-    <string name="item_default_name">Nom</string>
-    <string name="item_default_price">0 euros</string>
-    <string name="item_default_quantity">1</string>
+    <string name="confirmcart_name">Valider le panier</string>
+    <string name="project_final">Merci pour vos achats!</string>
+    <string name="txt_bonapp">Bon appétit!</string>
 </resources>

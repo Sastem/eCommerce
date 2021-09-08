@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.doranco.ecommerceapp" >
+    package="com.doranco.ecommerceapp">
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ECommerceApp" >
+        android:theme="@style/Theme.ECommerceApp">
         <activity
-            android:name=".LastActivity"
+            android:name=".adapters.PanierAdapter"
             android:exported="true" />
         <activity
-            android:name=".PanierActivity"
+            android:name=".ViennoiserieActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GateauActivity"
             android:exported="true" />
         <activity
             android:name=".DemarrageActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,21 +35,7 @@
             android:exported="true" />
         <activity
             android:name=".HomeActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <service android:name=".MyFirebaseMessagingService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+            android:exported="true"></activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

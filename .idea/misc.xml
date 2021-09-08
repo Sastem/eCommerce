@@ -6,13 +6,18 @@
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/drawable/ic_cart.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/drawable/ic_password.xml" value="0.2064814814814815" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_demarrage.xml" value="0.2" />
+        <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_gateau.xml" value="0.2" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_last.xml" value="0.1" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_panier.xml" value="0.152" />
+        <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_panier_adapter.xml" value="0.4" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/activity_viennoiserie.xml" value="0.136" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/adapter_gateau.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/adapter_patiss.xml" value="0.29292929292929293" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/cart_item.xml" value="0.4" />
+        <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/panier_activity.xml" value="0.264" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/panier_adapter.xml" value="0.264" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/layout/panier_item.xml" value="0.220873786407767" />
         <entry key="..\:/Users/vijay/AndroidStudioProjects/eCommerce3/app/src/main/res/menu/cart.xml" value="0.2" />

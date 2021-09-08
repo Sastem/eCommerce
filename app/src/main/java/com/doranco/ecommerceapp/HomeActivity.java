@@ -1,44 +1,44 @@
 package com.doranco.ecommerceapp;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-;
+import android.view.View;
+import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Toolbar toolbar;
-
+    Button btnViennoiserie;
+    Button btnPatisserie;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        toolbar = findViewById(R.id.toolbar_menu);
-        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
-    }
+        this.btnPatisserie = findViewById(R.id.btn_patisserie);
+        this.btnViennoiserie = findViewById(R.id.btn_viennoiserie);
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu cart) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.cart,cart);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.icon_cart:
-                Intent intent = new Intent(this,PanierActivity.class);
+        btnPatisserie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GateauActivity.class);
                 startActivity(intent);
+            }
+        });
 
-        }
-        return super.onOptionsItemSelected(item);
+        btnViennoiserie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ViennoiserieActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 }
