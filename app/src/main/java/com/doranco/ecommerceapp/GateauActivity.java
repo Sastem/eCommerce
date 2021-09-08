@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.doranco.ecommerceapp.adapters.PatissAdapter;
-import com.doranco.ecommerceapp.models.Gateau;
+import com.doranco.ecommerceapp.bean.Gateau;
 
 import java.util.ArrayList;
 import java.util.List;

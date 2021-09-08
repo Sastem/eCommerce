@@ -1,4 +1,4 @@
-package com.doranco.ecommerceapp.models;
+package com.doranco.ecommerceapp.bean;
 
 public class Gateau {
     private String nom, description, mnemonic,type;
