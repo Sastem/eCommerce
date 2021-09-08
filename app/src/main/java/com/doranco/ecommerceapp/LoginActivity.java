@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
@@ -22,6 +23,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button btn_cnx;
     private MyDataBase db;
     private LoginActivity activity;
+    MediaPlayer helloBuddySong;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +32,16 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         this.db = new MyDataBase(this);
-
         this.activity = this;
-
         this.et_login = findViewById(R.id.edit_login);
         this.et_pass = findViewById(R.id.edit_password);
+        this.helloBuddySong = MediaPlayer.create(getApplicationContext(), R.raw.hello_buddy);
+        helloBuddySong.start();
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
         this.txt_Create = findViewById(R.id.txt_create_account);
         this.btn_cnx = findViewById(R.id.btn_connexion);
 

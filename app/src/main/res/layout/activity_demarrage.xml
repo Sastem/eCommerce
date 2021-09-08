@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.328"
-        app:srcCompat="@android:drawable/ic_search_category_default"
+        app:srcCompat="@drawable/cupcake"
         android:contentDescription="@string/description_logo" />
 
     <ProgressBar

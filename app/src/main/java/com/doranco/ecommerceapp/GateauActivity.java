@@ -17,6 +17,9 @@ public class GateauActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gateau);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
         //Liste des items
         List<Gateau> gateaux = new ArrayList<>();

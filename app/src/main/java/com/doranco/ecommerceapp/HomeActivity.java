@@ -15,6 +15,9 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
         this.btnPatisserie = findViewById(R.id.btn_patisserie);
         this.btnViennoiserie = findViewById(R.id.btn_viennoiserie);
