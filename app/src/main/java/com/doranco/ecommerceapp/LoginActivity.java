@@ -18,7 +18,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         this.txt_Create = findViewById(R.id.txt_create_account);
         this.btn_cnx = findViewById(R.id.btn_connexion);
 
