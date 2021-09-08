@@ -10,13 +10,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.doranco.ecommerceapp.bean.Utilisateur;
-import com.doranco.ecommerceapp.models.MyDataBaseUser;
+import com.doranco.ecommerceapp.models.MyDataBase;
 
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText et_nom, et_prenom, et_tel, et_mail, et_pass, et_adresse;
     private Button btn_create;
-    private MyDataBaseUser db;
+    private MyDataBase db;
     private Utilisateur utilisateur;
     private RegisterActivity activity;
 
@@ -26,7 +26,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        db = new MyDataBaseUser(this);
+        db = new MyDataBase(this);
 
         this.activity = activity;
 

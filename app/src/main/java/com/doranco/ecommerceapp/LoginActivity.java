@@ -2,6 +2,7 @@ package com.doranco.ecommerceapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
@@ -12,14 +13,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.doranco.ecommerceapp.bean.Utilisateur;
-import com.doranco.ecommerceapp.models.MyDataBaseUser;
+import com.doranco.ecommerceapp.models.MyDataBase;
 
 public class LoginActivity extends AppCompatActivity {
 
     private TextView txt_Create;
     private EditText et_login, et_pass;
     private Button btn_cnx;
-    private MyDataBaseUser db;
+    private MyDataBase db;
     private LoginActivity activity;
 
     @Override
@@ -27,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        this.db = new MyDataBaseUser(this);
+        this.db = new MyDataBase(this);
 
         this.activity = this;
 
