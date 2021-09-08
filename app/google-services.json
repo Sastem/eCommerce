@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931514412959",
+    "project_id": "ecommerce-app-77ea7",
+    "storage_bucket": "ecommerce-app-77ea7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931514412959:android:bfa58efefc539dd96857aa",
+        "android_client_info": {
+          "package_name": "com.doranco.ecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931514412959-jr5oni582rv939leaa98u6h1lmu525fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-SPM_ZvuyuZViOYTJo1OAhvlaZFV5dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931514412959-jr5oni582rv939leaa98u6h1lmu525fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
