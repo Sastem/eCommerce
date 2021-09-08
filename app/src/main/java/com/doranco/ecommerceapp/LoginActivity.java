@@ -22,7 +22,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         this.helloBuddySong = MediaPlayer.create(getApplicationContext(), R.raw.hello_buddy);
         helloBuddySong.start();
-
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         this.txt_Create = findViewById(R.id.txt_create_account);
         this.btn_cnx = findViewById(R.id.btn_connexion);
 
