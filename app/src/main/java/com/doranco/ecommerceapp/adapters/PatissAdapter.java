@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.doranco.ecommerceapp.R;
-import com.doranco.ecommerceapp.models.Gateau;
+import com.doranco.ecommerceapp.bean.Gateau;
 
 import java.util.List;
 
