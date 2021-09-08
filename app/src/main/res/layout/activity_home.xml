@@ -12,7 +12,7 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/cupcake"
+        android:src="@drawable/cupcakeunhappy"
         app:layout_constraintBottom_toTopOf="@+id/txt_bienvenue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

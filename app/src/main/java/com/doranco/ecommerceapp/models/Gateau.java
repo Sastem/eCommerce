@@ -1,14 +1,49 @@
 package com.doranco.ecommerceapp.models;
 
 public class Gateau {
-    private String nom, description, mnemonic;
+    private String nom, description, mnemonic,type;
     private double prix;
+    private Integer id;
+    private Double stock;
 
-    public Gateau(String nom, String mnemonic,String description, double prix) {
+    public Gateau(Integer id, String type, String nom, double prix, Double stock) {
+        this.id = id;
+        this.type = type;
+        this.nom = nom;
+        this.prix = prix;
+        this.stock = stock;
+    }
+
+
+    public Gateau(String nom, String mnemonic, String description, double prix) {
         this.nom = nom;
         this.mnemonic = mnemonic;
         this.description = description;
         this.prix = prix;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public double getStock() {
+        return stock;
+    }
+
+    public void setStock(Double stock) {
+        this.stock = stock;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getNom() {
@@ -42,4 +77,5 @@ public class Gateau {
     public void setMnemonic(String mnemonic) {
         this.mnemonic = mnemonic;
     }
+
 }
