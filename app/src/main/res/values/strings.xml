@@ -22,4 +22,7 @@
     <string name="emptycart_name">Vider le panier</string>
     <string name="confirmcart_name">Confirmer le panier</string>
     <string name="txt_bonapp">Bon Appétit!</string>
+    <string name="item_default_name">Nom</string>
+    <string name="item_default_price">0 euros</string>
+    <string name="item_default_quantity">1</string>
 </resources>
