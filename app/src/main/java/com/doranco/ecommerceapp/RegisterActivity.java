@@ -15,6 +15,9 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_cupcake);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
         this.btn_create = findViewById(R.id.button_creer_compte);
 
